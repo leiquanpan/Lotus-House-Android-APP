@@ -1,0 +1,7 @@
+#Wed Jul 18 15:28:53 CST 2018
+base.0=/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f1f06f0d467b4518de8a28aca666d96ce3e13b4f
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d5e9faa90099ccd1b35861334c738a50e563498d/classes.dex
+base.1=/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d5e9faa90099ccd1b35861334c738a50e563498d
+file.0=/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f1f06f0d467b4518de8a28aca666d96ce3e13b4f/classes.dex

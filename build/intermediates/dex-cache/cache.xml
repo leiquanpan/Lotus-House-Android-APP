@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/leiquanpan/github_file/android-sdk-sample/testapp/libs/huecppsdk-wrapper.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="aa105dba0ae9910c6c98a4f2d603eaa6b9847df2">
+        <dex dex="/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/transforms/dex/debug/folders/1000/2/huecppsdk-wrapper_6dcf954ea6de536d13c3eb061c3ff4b171ddaa60/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f1f06f0d467b4518de8a28aca666d96ce3e13b4f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/leiquanpan/.android/build-cache/9b6cecc7a4b29fd17e3a9593400a99efb15e3c79/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1f091c35b4d6449432f3f55e4985c936006d1854/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="511a9e7cf4c8eefa0831f6f6a85ec19a920f67d2">
+        <dex dex="/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d5e9faa90099ccd1b35861334c738a50e563498d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/leiquanpan/.android/build-cache/f24edce1147ed211d3f33706b0c9a2a556b5224f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e62b2c4bca4f2e56c7f04aa7814e08fbe72da84a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/leiquanpan/.android/build-cache/92cafdca038404360e4d63623b288907b5d18b7f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/transforms/dex/debug/folders/1000/10/classes_163c02bff18a0f6ce3a550dcd86c8034245e3525/classes.dex" />
+    </item>
+
+</items>

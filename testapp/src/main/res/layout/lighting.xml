@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/comfort_righticon4"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/Lighting_title"
+        app:srcCompat="@drawable/lotus_icon_good" />
+
+    <SeekBar
+        android:id="@+id/lighting_seekBar"
+        android:layout_width="344dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="305dp"
+        android:max="100"
+        android:maxHeight="3dp"
+        android:minHeight="3dp"
+        android:progressDrawable="@drawable/layer_progress"
+        android:thumb="@drawable/thumb_thermostat" />
+
+    <ImageView
+        android:id="@+id/lighting_position"
+        android:layout_width="254dp"
+        android:layout_height="254dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="237dp"
+        app:srcCompat="@drawable/cool_thermostat_drawable" />
+
+    <ImageView
+        android:id="@+id/lighting_on_off"
+        android:layout_width="254dp"
+        android:layout_height="254dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="199dp"
+        app:srcCompat="@drawable/cool_thermostat_drawable" />
+
+    <TextView
+        android:id="@+id/Lighting_title"
+        android:layout_width="446dp"
+        android:layout_height="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:gravity="center"
+        android:text="Lighting"
+        android:textColor="@android:color/black"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/lighting_lefticon"
+        android:layout_width="48dp"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/Lighting_title"
+        app:srcCompat="@drawable/left_icon" />
+
+    <TextView
+        android:id="@+id/lighting_status"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/lighting_on_off"
+        android:layout_marginEnd="122dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="STATUS"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lighting_color"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/lighting_position"
+        android:layout_marginEnd="129dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="COLOR"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lighting_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/lighting_seekBar"
+        android:layout_below="@+id/lighting_seekBar"
+        android:text="OFF"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lighting_max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/lighting_seekBar"
+        android:text="MAX"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+</RelativeLayout>

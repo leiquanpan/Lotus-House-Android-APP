@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/security_main_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="38dp"
+        android:text="24:00:00"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/security_main_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/security_main_time"
+        android:layout_marginTop="84dp"
+        android:text="Tuesday, 12, 24"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/security_main_home_text"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/security_main_time"
+        android:layout_below="@+id/security_main_home_icon"
+        android:gravity="center"
+        android:text="HOME"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/security_main_secure_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/security_main_home_text"
+        android:layout_marginStart="115dp"
+        android:gravity="center"
+        android:text="SECURE"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/security_main_secure_icon"
+        android:layout_width="69dp"
+        android:layout_height="62dp"
+        android:layout_above="@+id/security_main_home_text"
+        android:layout_alignStart="@+id/security_main_secure_text"
+        app:srcCompat="@drawable/lotus_icon_good" />
+
+    <ImageView
+        android:id="@+id/security_main_home_icon"
+        android:layout_width="65dp"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/security_main_time"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/lotus_icon_good" />
+
+</RelativeLayout>

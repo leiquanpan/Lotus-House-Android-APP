@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_thermostat"
+            android:title="Thermostat"/>
+        <item
+            android:id="@+id/nav_camera"
+            android:title="Camera"/>
+        <item
+            android:id="@+id/nav_lighting"
+            android:title="Light"/>
+    </group>
+
+    <item android:title="Mode">
+        <menu>
+            <item
+                android:id="@+id/nav_normal"
+                android:title="Normal"/>
+            <item
+                android:id="@+id/nav_evening"
+                android:title="Evening"/>
+            <item
+                android:id="@+id/nav_away"
+                android:title="Away"/>
+            <item
+                android:id="@+id/nav_sleep"
+                android:title="Sleep"/>
+            <item
+                android:id="@+id/nav_party"
+                android:title="Party"/>
+        </menu>
+    </item>
+</menu>
+
+    <!--android:icon="@drawable/ic_menu_send"-->

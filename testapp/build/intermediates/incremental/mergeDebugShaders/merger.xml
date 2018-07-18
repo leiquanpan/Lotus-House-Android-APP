@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/debug/shaders"/></dataSet></merger>

@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/layout-sw600dp-v13/lighting.xml",
+        "source": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/res/layout-sw600dp/lighting.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/layout-sw600dp-v13/comfort_main_layout.xml",
+        "source": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/res/layout-sw600dp/comfort_main_layout.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/layout-sw600dp-v13/dashboard_with_navigation.xml",
+        "source": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/res/layout-sw600dp/dashboard_with_navigation.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/layout-sw600dp-v13/security.xml",
+        "source": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/res/layout-sw600dp/security.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/layout-sw600dp-v13/dashboard.xml",
+        "source": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/res/layout-sw600dp/dashboard.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/layout-sw600dp-v13/single_control_layout.xml",
+        "source": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/res/layout-sw600dp/single_control_layout.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/layout-sw600dp-v13/light_layout.xml",
+        "source": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/res/layout-sw600dp/light_layout.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/layout-sw600dp-v13/security_main_layout.xml",
+        "source": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/res/layout-sw600dp/security_main_layout.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/layout-sw600dp-v13/nav_header_main.xml",
+        "source": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/res/layout-sw600dp/nav_header_main.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/leiquanpan/.android/build-cache/92cafdca038404360e4d63623b288907b5d18b7f/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/layout-sw600dp-v13/thermostat.xml",
+        "source": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/res/layout-sw600dp/thermostat.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/layout-sw600dp-v13/energy_main_layout.xml",
+        "source": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/res/layout-sw600dp/energy_main_layout.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/layout-sw600dp-v13/loading.xml",
+        "source": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/res/layout-sw600dp/loading.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/layout-sw600dp-v13/camera_layout.xml",
+        "source": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/res/layout-sw600dp/camera_layout.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/layout-sw600dp-v13/energy.xml",
+        "source": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/res/layout-sw600dp/energy.xml"
+    }
+]

@@ -1,0 +1,195 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:12:1-96:12
+	package
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:13:5-38
+	android:versionName
+		INJECTED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml
+		INJECTED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:15:5-51
+	xmlns:android
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:14:5-63
+	android:versionCode
+		INJECTED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml
+		INJECTED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:17:5-67
+MERGED from [android-sdk-sample:android-sdk-release:unspecified] /Users/leiquanpan/.android/build-cache/b0543e5bdde25c4c82c7ccaee46affd4dad9aa00/output/AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:17:22-64
+application
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:19:5-94:19
+MERGED from [android-sdk-sample:android-sdk-release:unspecified] /Users/leiquanpan/.android/build-cache/b0543e5bdde25c4c82c7ccaee46affd4dad9aa00/output/AndroidManifest.xml:29:5-34:19
+MERGED from [com.android.support:mediarouter-v7:25.3.1] /Users/leiquanpan/.android/build-cache/02c1bafa9e41d3f7ad4f984ca604aa26cefc8989/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:palette-v7:25.3.1] /Users/leiquanpan/.android/build-cache/6e6414b0652246da5d5e1caa2e22c8f87f362c63/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/leiquanpan/.android/build-cache/b54d210d7f06477c1d19c21ad8a0868224f66ef7/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] /Users/leiquanpan/.android/build-cache/92cafdca038404360e4d63623b288907b5d18b7f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/leiquanpan/.android/build-cache/e75e250a0806aa92ba0b818a32ca5ea27d59a333/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/leiquanpan/.android/build-cache/c9bb05c0009c5de75f29433189bfb7ffc32eab14/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/leiquanpan/.android/build-cache/e3472ee5dee24a400cb3f9af741eb6620a7c058d/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/leiquanpan/.android/build-cache/9b6cecc7a4b29fd17e3a9593400a99efb15e3c79/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/leiquanpan/.android/build-cache/9c3bfa064dd215de2f426450e56c3f2bc3988112/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/leiquanpan/.android/build-cache/75b4f9d852ff0fd94cd67f5af93e244b03704d42/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/leiquanpan/.android/build-cache/d6c1e217297cacb2573b4c32e3e3c82e6d222ea6/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/leiquanpan/.android/build-cache/281df0fd89428af1b06aa79fc4a07574d7519380/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/leiquanpan/.android/build-cache/886fcac1ade0ffd7de86e6854626041ab092e482/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/leiquanpan/.android/build-cache/b2cd64873d5555ca8715c1e6928f575812839c79/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:22:9-41
+	android:allowBackup
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:20:9-35
+	android:icon
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:21:9-49
+	android:theme
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:23:9-40
+	tools:replace
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:24:9-29
+activity#com.nestlabs.sdk.sample.DashBoard
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:26:9-31:20
+	android:name
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:26:19-44
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:29:27-74
+activity#com.nestlabs.sdk.sample.Comfort
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:33:9-41:20
+	android:label
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:35:13-45
+	android:parentActivityName
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:36:13-52
+	android:name
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:34:13-36
+intent-filter#android.intent.category.DEFAULT+myComfort
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:37:13-40:29
+action#myComfort
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:38:17-51
+	android:name
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:38:25-49
+category#android.intent.category.DEFAULT
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:39:17-75
+	android:name
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:39:27-73
+activity#com.nestlabs.sdk.sample.Energy_java
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:43:9-51:20
+	android:label
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:45:13-45
+	android:parentActivityName
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:46:13-52
+	android:name
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:44:13-40
+intent-filter#android.intent.category.DEFAULT+myEnergy
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:47:13-50:29
+action#myEnergy
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:48:17-50
+	android:name
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:48:25-48
+activity#com.nestlabs.sdk.sample.thermostat_detail
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:53:9-61:20
+	android:label
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:55:13-45
+	android:parentActivityName
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:56:13-50
+	android:name
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:54:13-46
+intent-filter#android.intent.category.DEFAULT+myThermostat
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:57:13-60:29
+action#myThermostat
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:58:17-54
+	android:name
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:58:25-52
+activity#com.nestlabs.sdk.sample.Security
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:63:9-71:20
+	android:label
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:65:13-45
+	android:parentActivityName
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:66:13-52
+	android:name
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:64:13-37
+activity#com.nestlabs.sdk.sample.camera_detail
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:73:9-81:20
+	android:label
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:75:13-45
+	android:parentActivityName
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:76:13-51
+	android:name
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:74:13-42
+intent-filter#android.intent.category.DEFAULT+mycamera
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:77:13-80:29
+action#mycamera
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:78:17-50
+	android:name
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:78:25-48
+activity#com.nestlabs.sdk.sample.hue_activity
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:83:9-91:20
+	android:label
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:85:13-45
+	android:parentActivityName
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:86:13-54
+	android:name
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:84:13-41
+intent-filter#android.intent.category.DEFAULT+myhue
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:87:13-90:29
+action#myhue
+ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:88:17-47
+	android:name
+		ADDED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml:88:25-45
+uses-sdk
+INJECTED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [android-sdk-sample:android-sdk-release:unspecified] /Users/leiquanpan/.android/build-cache/b0543e5bdde25c4c82c7ccaee46affd4dad9aa00/output/AndroidManifest.xml:23:5-25:41
+MERGED from [com.android.support:mediarouter-v7:25.3.1] /Users/leiquanpan/.android/build-cache/02c1bafa9e41d3f7ad4f984ca604aa26cefc8989/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:25.3.1] /Users/leiquanpan/.android/build-cache/6e6414b0652246da5d5e1caa2e22c8f87f362c63/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/leiquanpan/.android/build-cache/b54d210d7f06477c1d19c21ad8a0868224f66ef7/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.wang.avi:library:2.1.3] /Users/leiquanpan/.android/build-cache/fe3ac78162f01048805f00b5aff2105b6826de57/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] /Users/leiquanpan/.android/build-cache/92cafdca038404360e4d63623b288907b5d18b7f/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/leiquanpan/.android/build-cache/e75e250a0806aa92ba0b818a32ca5ea27d59a333/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/leiquanpan/.android/build-cache/c9bb05c0009c5de75f29433189bfb7ffc32eab14/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/leiquanpan/.android/build-cache/e3472ee5dee24a400cb3f9af741eb6620a7c058d/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/leiquanpan/.android/build-cache/f24edce1147ed211d3f33706b0c9a2a556b5224f/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /Users/leiquanpan/.android/build-cache/9b6cecc7a4b29fd17e3a9593400a99efb15e3c79/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] /Users/leiquanpan/.android/build-cache/9c3bfa064dd215de2f426450e56c3f2bc3988112/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/leiquanpan/.android/build-cache/75b4f9d852ff0fd94cd67f5af93e244b03704d42/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/leiquanpan/.android/build-cache/d6c1e217297cacb2573b4c32e3e3c82e6d222ea6/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/leiquanpan/.android/build-cache/281df0fd89428af1b06aa79fc4a07574d7519380/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/leiquanpan/.android/build-cache/886fcac1ade0ffd7de86e6854626041ab092e482/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /Users/leiquanpan/.android/build-cache/b2cd64873d5555ca8715c1e6928f575812839c79/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /Users/leiquanpan/.android/build-cache/92cafdca038404360e4d63623b288907b5d18b7f/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml
+		INJECTED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml
+		INJECTED from /Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/AndroidManifest.xml
+activity#com.nestlabs.sdk.NestAuthActivity
+ADDED from [android-sdk-sample:android-sdk-release:unspecified] /Users/leiquanpan/.android/build-cache/b0543e5bdde25c4c82c7ccaee46affd4dad9aa00/output/AndroidManifest.xml:30:9-33:20
+	android:theme
+		ADDED from [android-sdk-sample:android-sdk-release:unspecified] /Users/leiquanpan/.android/build-cache/b0543e5bdde25c4c82c7ccaee46affd4dad9aa00/output/AndroidManifest.xml:32:13-66
+	android:name
+		ADDED from [android-sdk-sample:android-sdk-release:unspecified] /Users/leiquanpan/.android/build-cache/b0543e5bdde25c4c82c7ccaee46affd4dad9aa00/output/AndroidManifest.xml:31:13-61
+meta-data#android.support.VERSION
+ADDED from [com.android.support:mediarouter-v7:25.3.1] /Users/leiquanpan/.android/build-cache/02c1bafa9e41d3f7ad4f984ca604aa26cefc8989/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:palette-v7:25.3.1] /Users/leiquanpan/.android/build-cache/6e6414b0652246da5d5e1caa2e22c8f87f362c63/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.1] /Users/leiquanpan/.android/build-cache/92cafdca038404360e4d63623b288907b5d18b7f/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/leiquanpan/.android/build-cache/e75e250a0806aa92ba0b818a32ca5ea27d59a333/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/leiquanpan/.android/build-cache/c9bb05c0009c5de75f29433189bfb7ffc32eab14/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/leiquanpan/.android/build-cache/e3472ee5dee24a400cb3f9af741eb6620a7c058d/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/leiquanpan/.android/build-cache/f24edce1147ed211d3f33706b0c9a2a556b5224f/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/leiquanpan/.android/build-cache/9b6cecc7a4b29fd17e3a9593400a99efb15e3c79/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/leiquanpan/.android/build-cache/9c3bfa064dd215de2f426450e56c3f2bc3988112/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/leiquanpan/.android/build-cache/75b4f9d852ff0fd94cd67f5af93e244b03704d42/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/leiquanpan/.android/build-cache/d6c1e217297cacb2573b4c32e3e3c82e6d222ea6/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/leiquanpan/.android/build-cache/281df0fd89428af1b06aa79fc4a07574d7519380/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/leiquanpan/.android/build-cache/886fcac1ade0ffd7de86e6854626041ab092e482/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/leiquanpan/.android/build-cache/b2cd64873d5555ca8715c1e6928f575812839c79/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:mediarouter-v7:25.3.1] /Users/leiquanpan/.android/build-cache/02c1bafa9e41d3f7ad4f984ca604aa26cefc8989/output/AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:mediarouter-v7:25.3.1] /Users/leiquanpan/.android/build-cache/02c1bafa9e41d3f7ad4f984ca604aa26cefc8989/output/AndroidManifest.xml:23:9-47

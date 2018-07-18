@@ -1,0 +1,329 @@
+<!--
+    Copyright 2014 Nest Labs Inc. All Rights Reserved.
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software * distributed under
+    the License is distributed on an "AS IS" BASIS, * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+    either express or implied. * See the License for the specific language governing permissions and
+    limitations under the License.
+    -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hue_activity">
+
+    <ImageView
+        android:id="@+id/comfort_righticon5"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/Security_lefticon"
+        app:srcCompat="@drawable/lotus_icon_good" />
+
+    <ImageView
+        android:id="@+id/Security_lefticon"
+        android:layout_width="48dp"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/Security_title"
+        app:srcCompat="@drawable/left_icon"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:id="@+id/Security_title"
+        android:layout_width="446dp"
+        android:layout_height="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="SECURITY"
+        android:textColor="@android:color/black"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <VideoView
+        android:id="@+id/Security_video_view"
+        android:layout_width="488dp"
+        android:layout_height="273dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/Security_camera_1" />
+
+    <Button
+        android:id="@+id/Security_camera_2"
+        android:layout_width="112dp"
+        android:layout_height="91dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Security_camera_1"
+        android:background="@drawable/outdoor_camera" />
+
+    <Button
+        android:id="@+id/Security_camera_3"
+        android:layout_width="112dp"
+        android:layout_height="91dp"
+        android:layout_alignBottom="@+id/Security_video_view"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/hello_camera" />
+
+    <Button
+        android:id="@+id/Security_camera_1"
+        android:layout_width="112dp"
+        android:layout_height="91dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="161dp"
+        android:background="@drawable/indoor_camera" />
+
+    <TextView
+        android:id="@+id/Security_to_camera_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/Security_lefticon"
+        android:text="CAMERA"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Security_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="430dp"
+        android:text="HOME"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/Security_to_camera_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/Security_lefticon"
+        android:layout_toStartOf="@+id/Security_to_camera_title"
+        app:srcCompat="@drawable/right_icon" />
+
+    <ImageView
+        android:id="@+id/Security_Home_Away_Button"
+        android:layout_width="125dp"
+        android:layout_height="104dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="447dp"
+        app:srcCompat="@drawable/lotus_icon_good" />
+
+    <TextView
+        android:id="@+id/Security_Journal_status_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Security_to_camera_icon"
+        android:layout_alignTop="@+id/Security_Journal_image_1"
+        android:text="Secure"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Security_Journal_status_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Security_to_camera_icon"
+        android:layout_alignTop="@+id/Security_Journal_image_2"
+        android:text="Secure"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Security_Journal_status_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/Security_to_camera_icon"
+        android:layout_marginBottom="145dp"
+        android:text="Secure"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/security_Journal_status_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Security_to_camera_icon"
+        android:layout_alignTop="@+id/security_Journal_time_5"
+        android:text="Secure"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Security_Journal_status_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Security_to_camera_icon"
+        android:layout_alignTop="@+id/Security_Journal_time_3"
+        android:text="Secure"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Security_Journal_event_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Security_Journal_event_2"
+        android:layout_alignTop="@+id/Security_Journal_status_1"
+        android:text="People Event"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Security_Journal_event_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Security_Journal_event_3"
+        android:layout_alignTop="@+id/Security_Journal_status_2"
+        android:text="People Event"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Security_Journal_event_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Security_Journal_event_4"
+        android:layout_alignTop="@+id/Security_Journal_status_3"
+        android:text="People Event"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Security_Journal_event_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/security_Journal_event_5"
+        android:layout_alignTop="@+id/Security_Journal_status_4"
+        android:text="People Event"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/security_Journal_event_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/security_Journal_status_5"
+        android:layout_marginEnd="201dp"
+        android:text="People Event"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Security_Journal_time_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="208dp"
+        android:layout_toStartOf="@+id/Security_video_view"
+        android:text="13:00:00"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Security_Journal_time_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Security_Journal_status_4"
+        android:layout_toStartOf="@+id/Security_video_view"
+        android:text="13:00:00"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/security_Journal_time_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="87dp"
+        android:layout_toStartOf="@+id/Security_video_view"
+        android:text="13:00:00"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Security_Journal_time_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="271dp"
+        android:layout_toStartOf="@+id/Security_video_view"
+        android:text="13:00:00"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Security_Journal_time_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="334dp"
+        android:layout_toStartOf="@+id/Security_video_view"
+        android:text="13:00:00"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/Security_Journal_image_1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/Security_Journal_image_2"
+        android:layout_alignTop="@+id/Security_Journal_time_1"
+        app:srcCompat="@drawable/indoor_camera" />
+
+    <ImageView
+        android:id="@+id/Security_Journal_image_2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/Security_Journal_time_2"
+        android:layout_marginStart="170dp"
+        app:srcCompat="@drawable/indoor_camera" />
+
+    <ImageView
+        android:id="@+id/Security_Journal_image_3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/Security_Journal_image_1"
+        android:layout_alignTop="@+id/Security_Journal_time_3"
+        app:srcCompat="@drawable/indoor_camera" />
+
+    <ImageView
+        android:id="@+id/Security_Journal_image_4"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/Security_Journal_image_1"
+        android:layout_alignTop="@+id/Security_Journal_status_4"
+        app:srcCompat="@drawable/indoor_camera" />
+
+    <ImageView
+        android:id="@+id/security_Journal_image_5"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/Security_Journal_image_1"
+        android:layout_alignTop="@+id/security_Journal_time_5"
+        app:srcCompat="@drawable/indoor_camera" />
+
+    <TextView
+        android:id="@+id/Security_Journal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Security_Journal_time_3"
+        android:layout_below="@+id/Security_status"
+        android:layout_marginTop="-430dp"
+        android:text="Journal"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+</RelativeLayout>

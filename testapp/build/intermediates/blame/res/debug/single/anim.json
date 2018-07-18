@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/leiquanpan/.android/build-cache/e75e250a0806aa92ba0b818a32ca5ea27d59a333/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/anim/slide_out_left.xml",
+        "source": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/res/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/leiquanpan/.android/build-cache/e75e250a0806aa92ba0b818a32ca5ea27d59a333/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/leiquanpan/.android/build-cache/92cafdca038404360e4d63623b288907b5d18b7f/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/leiquanpan/.android/build-cache/e75e250a0806aa92ba0b818a32ca5ea27d59a333/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/anim/slide_in_right.xml",
+        "source": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/res/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/leiquanpan/.android/build-cache/e75e250a0806aa92ba0b818a32ca5ea27d59a333/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/leiquanpan/.android/build-cache/e75e250a0806aa92ba0b818a32ca5ea27d59a333/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/leiquanpan/.android/build-cache/e75e250a0806aa92ba0b818a32ca5ea27d59a333/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/anim/slide_out_right.xml",
+        "source": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/res/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/leiquanpan/.android/build-cache/e75e250a0806aa92ba0b818a32ca5ea27d59a333/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/leiquanpan/.android/build-cache/92cafdca038404360e4d63623b288907b5d18b7f/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/Users/leiquanpan/.android/build-cache/92cafdca038404360e4d63623b288907b5d18b7f/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/leiquanpan/.android/build-cache/e75e250a0806aa92ba0b818a32ca5ea27d59a333/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/leiquanpan/.android/build-cache/e75e250a0806aa92ba0b818a32ca5ea27d59a333/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/anim/slide_in_left.xml",
+        "source": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/res/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/Users/leiquanpan/.android/build-cache/92cafdca038404360e4d63623b288907b5d18b7f/output/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/leiquanpan/.android/build-cache/e75e250a0806aa92ba0b818a32ca5ea27d59a333/output/res/anim/abc_slide_out_bottom.xml"
+    }
+]

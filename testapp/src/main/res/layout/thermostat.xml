@@ -1,0 +1,347 @@
+<!--
+    Copyright 2014 Nest Labs Inc. All Rights Reserved.
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software * distributed under
+    the License is distributed on an "AS IS" BASIS, * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+    either express or implied. * See the License for the specific language governing permissions and
+    limitations under the License.
+    -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/Comfort_to_thermostat_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignTop="@+id/Comfort_to_thermostat_title"
+        android:layout_toStartOf="@+id/Comfort_to_thermostat_title"
+        app:srcCompat="@drawable/right_icon" />
+
+    <TextView
+        android:id="@+id/Comfort_to_thermostat_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:text="THERMOSTAT"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/Comfort_lefticon"
+        android:layout_width="48dp"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/Comfort_title"
+        app:srcCompat="@drawable/left_icon"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:id="@+id/Comfort_title"
+        android:layout_width="446dp"
+        android:layout_height="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="COMFORT"
+        android:textColor="@android:color/black"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_marginTop="375dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="HUMIDITY"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/Comfort_scale_title"
+        android:layout_marginEnd="58dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="TEMPERATURE"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Comfort_scale_title"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="182dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="COMFORT SCALE"
+        android:textColor="@android:color/black"
+        android:gravity=""
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/editText5"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="321dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="CONTROL MODE"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Comfort_humidity_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText"
+        android:layout_below="@+id/textView47"
+        android:text="100%"
+        android:textColor="@android:color/black"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/Comfort_temperature_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignTop="@+id/Comfort_2_level"
+        android:text="100℃"
+        android:textColor="@android:color/black"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/Comfort_4_level"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_alignStart="@+id/Comfort_scale_title"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="4"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Comfort_5_level"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/Comfort_scale_title"
+        android:layout_marginBottom="338dp"
+        android:gravity="center"
+        android:text="5"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Comfort_3_level"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_alignBottom="@+id/Comfort_humidity_content"
+        android:layout_alignStart="@+id/Comfort_scale_title"
+        android:gravity="center"
+        android:text="3"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Comfort_2_level"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Comfort_scale_title"
+        android:layout_marginTop="249dp"
+        android:gravity="center"
+        android:text="2"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Comfort_1_level"
+        android:layout_width="wrap_content"
+        android:layout_height="179dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Comfort_scale_title"
+        android:layout_marginTop="174dp"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignEnd="@+id/Comfort_scale_title"
+        android:layout_below="@+id/editText"
+        android:gravity="center"
+        android:text="凉爽，很舒适"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView47"
+        android:layout_marginBottom="412dp"
+        android:gravity="center"
+        android:text="酷冷，要保暖"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignEnd="@+id/Comfort_scale_title"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="偏冷，防感冒"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Comfort_1_level"
+        android:layout_alignEnd="@+id/Comfort_scale_title"
+        android:gravity="center"
+        android:text="闷热，防中暑"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/Comfort_thermostat_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView49"
+        android:layout_alignEnd="@+id/editText3"
+        android:text="Switch" />
+
+    <ImageView
+        android:id="@+id/Comfort_heat_button"
+        android:layout_width="108dp"
+        android:layout_height="121dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/Comfort_scale_title"
+        android:layout_marginBottom="172dp"
+        app:srcCompat="@drawable/hvac_heat" />
+
+    <ImageView
+        android:id="@+id/Comfort_cool_button"
+        android:layout_width="108dp"
+        android:layout_height="121dp"
+        android:layout_alignTop="@+id/Comfort_heat_button"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/hvac_cool" />
+
+    <ImageView
+        android:id="@+id/Comfort_off_button"
+        android:layout_width="108dp"
+        android:layout_height="121dp"
+        android:layout_alignEnd="@+id/editText3"
+        android:layout_alignTop="@+id/Comfort_heat_button"
+        app:srcCompat="@drawable/off_thermostat_off" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Comfort_2_level"
+        android:layout_alignEnd="@+id/Comfort_scale_title"
+        android:gravity="center"
+        android:text="偏热，较舒适"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Comfort_heat_text"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Comfort_scale_title"
+        android:layout_below="@+id/Comfort_heat_button"
+        android:layout_marginTop="-172dp"
+        android:gravity="center"
+        android:text="Heat"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Comfort_cool_text"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Comfort_heat_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-172dp"
+        android:gravity="center"
+        android:text="Cool"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Comfort_off_text"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText3"
+        android:layout_below="@+id/Comfort_heat_button"
+        android:layout_marginTop="-172dp"
+        android:gravity="center"
+        android:text="Off"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_marginBottom="95dp"
+        android:text="Current:"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Comfort_cur_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText5"
+        android:layout_alignTop="@+id/textView5"
+        android:text="Unknown"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/Comfort_righticon"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/Comfort_lefticon"
+        app:srcCompat="@drawable/lotus_icon_good" />
+
+</RelativeLayout>

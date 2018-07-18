@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 100,
+                    "endColumn": 57,
+                    "endOffset": 153
+                },
+                "from": {
+                    "file": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 338,
+                        "endColumn": 57,
+                        "endOffset": 391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 158,
+                    "endColumn": 78,
+                    "endOffset": 232
+                },
+                "from": {
+                    "file": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 396,
+                        "endColumn": 80,
+                        "endOffset": 472
+                    }
+                }
+            }
+        ]
+    }
+]

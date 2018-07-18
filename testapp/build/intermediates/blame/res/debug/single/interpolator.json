@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/interpolator/mr_linear_out_slow_in.xml",
+        "source": "/Users/leiquanpan/.android/build-cache/02c1bafa9e41d3f7ad4f984ca604aa26cefc8989/output/res/interpolator/mr_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/interpolator/mr_fast_out_slow_in.xml",
+        "source": "/Users/leiquanpan/.android/build-cache/02c1bafa9e41d3f7ad4f984ca604aa26cefc8989/output/res/interpolator/mr_fast_out_slow_in.xml"
+    }
+]

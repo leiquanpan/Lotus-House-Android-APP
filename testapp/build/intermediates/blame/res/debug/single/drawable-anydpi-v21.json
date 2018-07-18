@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/leiquanpan/.android/build-cache/92cafdca038404360e4d63623b288907b5d18b7f/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/leiquanpan/github_file/android-sdk-sample/testapp/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/leiquanpan/.android/build-cache/92cafdca038404360e4d63623b288907b5d18b7f/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    }
+]

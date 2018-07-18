@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/DashBoard_securityicon"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignBottom="@+id/DashBoard_comfort_title"
+        android:layout_toEndOf="@+id/DashBoard_security_title"
+        app:srcCompat="@drawable/right_icon" />
+
+    <ImageView
+        android:id="@+id/DashBoard_comfort_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignTop="@+id/linearLayout2"
+        android:layout_marginStart="-168dp"
+        android:layout_toEndOf="@+id/DashBoard_comfort_title"
+        app:srcCompat="@drawable/right_icon" />
+
+    <ImageView
+        android:id="@+id/DashBoard_energy_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignTop="@+id/linearLayout3"
+        android:layout_toEndOf="@+id/DashBoard_energy_title"
+        app:srcCompat="@drawable/right_icon" />
+
+    <TextView
+        android:id="@+id/DashBoard_title"
+        android:layout_width="448dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="LOTUS HOUSE"
+        android:textColor="@android:color/black"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <ImageView
+        android:id="@+id/DashBoard_lefticon"
+        android:layout_width="46dp"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/DashBoard_title"
+        android:visibility="visible"
+        app:srcCompat="@drawable/left_icon"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout2"
+        android:layout_width="254dp"
+        android:layout_height="355dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/linearLayout4"
+        android:background="@drawable/security_main"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="114dp">
+
+        <include
+            layout="@layout/security_main_layout"
+            android:layout_width="220dp"
+            android:layout_height="320dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="398dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="97dp"
+        android:background="@drawable/security_main"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="520dp">
+
+        <include
+            layout="@layout/energy_main_layout"
+            android:layout_width="548dp"
+            android:layout_height="359dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout4"
+        android:layout_width="320dp"
+        android:layout_height="355dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="123dp"
+        android:background="@drawable/security_main"
+        tools:layout_editor_absoluteX="276dp"
+        tools:layout_editor_absoluteY="114dp">
+
+        <include
+            layout="@layout/comfort_main_layout"
+            android:layout_width="277dp"
+            android:layout_height="320dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/DashBoard_energy_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/DashBoard_security_title"
+        android:layout_alignTop="@+id/linearLayout3"
+        android:text="ENERGY"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <TextView
+        android:id="@+id/DashBoard_comfort_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/linearLayout2"
+        android:layout_marginEnd="168dp"
+        android:text="COMFORT"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <TextView
+        android:id="@+id/DashBoard_security_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/linearLayout2"
+        android:layout_marginStart="11dp"
+        android:text="SECURITY"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <ImageView
+        android:id="@+id/comfort_righticon2"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/DashBoard_title"
+        app:srcCompat="@drawable/lotus_icon_good" />
+
+</RelativeLayout>

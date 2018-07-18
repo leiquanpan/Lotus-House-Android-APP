@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/thermostat_righticon3"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/Camera_title"
+        app:srcCompat="@drawable/lotus_icon_good" />
+
+    <ImageView
+        android:id="@+id/thermostat_view"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_alignEnd="@+id/thermostat_pos_view"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="211dp"
+        app:srcCompat="@drawable/thermostat_on" />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/thermostat_view"
+        android:layout_marginEnd="128dp"
+        android:ems="10"
+        android:text="TEMPERATURE"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/thermostat_temperature_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginTop="286dp"
+        android:text="100"
+        android:textColor="@android:color/black"
+        android:textSize="80sp" />
+
+    <TextView
+        android:id="@+id/editText4"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginTop="462dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="HUMIDITY"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/editText6"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/thermostat_CO_content"
+        android:layout_alignStart="@+id/editText2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="CO LEVEL:"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/editText7"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginBottom="198dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="PM 2.5:"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/thermostat_humidity_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginBottom="375dp"
+        android:text="100"
+        android:textColor="@android:color/black"
+        android:textSize="80sp" />
+
+    <TextView
+        android:id="@+id/thermostat_CO_content"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="285dp"
+        android:gravity="center"
+        android:text="NORMAL"
+        android:textColor="@android:color/black"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/thermostat_PM_content2"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText7"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:text="NORMAL"
+        android:textColor="@android:color/black"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/Camera_title"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="THERMOSTAT"
+        android:textColor="@android:color/black"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/thermostat_lefticon"
+        android:layout_width="48dp"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/Camera_title"
+        app:srcCompat="@drawable/left_icon" />
+
+    <ImageView
+        android:id="@+id/thermostat_pos_view"
+        android:layout_width="254dp"
+        android:layout_height="254dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="237dp"
+        app:srcCompat="@drawable/cool_thermostat_drawable" />
+
+    <TextView
+        android:id="@+id/thermostat_option_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/thermostat_temperature_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="53dp"
+        android:text="℃"
+        android:textColor="@android:color/black"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/thermostat_option_c6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/thermostat_humidity_content"
+        android:layout_alignStart="@+id/thermostat_righticon3"
+        android:text="%"
+        android:textColor="@android:color/black"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/thermostat_option_c5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/thermostat_temperature_content"
+        android:layout_marginStart="-53dp"
+        android:layout_toEndOf="@+id/thermostat_option_c"
+        android:text="/"
+        android:textColor="@android:color/black"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/thermostat_option_c4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/thermostat_temperature_content"
+        android:layout_toEndOf="@+id/thermostat_option_c5"
+        android:text="℉"
+        android:textColor="@android:color/black"
+        android:textSize="36sp" />
+
+</RelativeLayout>
